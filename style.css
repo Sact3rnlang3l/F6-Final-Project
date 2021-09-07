@@ -1,0 +1,33 @@
+.space1 {
+    background-image: url("https://apod.nasa.gov/apod/image/2109/NGC520_HubbleOstling_1493.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+}
+/* 
+.t1{
+    width: 120px;
+    height: 120px;
+    background: 'https://apod.nasa.gov/apod/image/2109/NGC520_HubbleOstling_1493.jpg';
+    background-position: left top;
+}
+.t2{
+    width: 120px;
+    height: 120px;
+    background: 'https://apod.nasa.gov/apod/image/2109/NGC520_HubbleOstling_1493.jpg';
+    background-position: center top;
+}
+.t3{
+    width: 120px;
+    height: 120px;
+    background: 'https://apod.nasa.gov/apod/image/2109/NGC520_HubbleOstling_1493.jpg';
+    background-position: top right;
+}
+.t4{
+    width: 120px;
+    height: 120px;
+    background: 'https://apod.nasa.gov/apod/image/2109/NGC520_HubbleOstling_1493.jpg';
+    background-position: left center;
+} */
