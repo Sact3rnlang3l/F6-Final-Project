@@ -33,3 +33,10 @@
 .t9{
     background: white;
 }
+.table{
+    margin-left:auto;
+    margin-right:auto;
+}
+.button{
+    text-align: center;
+}

@@ -1,31 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
     <title>Slide Puzzle</title>
-</head>
-<body>
-    <div id="table" style="display: table;">
-        <div id="row1" style="display: table-row;">
-           <div id="cell11" class="t1" onclick="click_tile(1,1)" ></div>
-           <div id="cell12" class="t2" onclick="click_tile(1,2)"></div>
-           <div id="cell13" class="t3" onclick="click_tile(1,3)"></div>
-        </div>
-        <div id="row2" style="display: table-row;">
-           <div id="cell21" class="t4" onclick="click_tile(2,1)"></div>
-           <div id="cell22" class="t5" onclick="click_tile(2,2)"></div>
-           <div id="cell23" class="t6" onclick="click_tile(2,3)"></div>
-        </div>
-        <div id="row3" style="display: table-row;">
-           <div id="cell31" class="t7" onclick="click_tile(3,1)"></div>
-           <div id="cell32" class="t8" onclick="click_tile(3,2)"></div>
-           <div id="cell33" class="t9" onclick="click_tile(3,3)"></div>
-        </div>
-     </div>
-    <button onClick="shuffle();">New Game</button>
+  </head>
+  <body>
+    <div class="table" id="table" style="display: table">
+      <div id="row1" style="display: table-row">
+        <div id="cell11" class="t1" onclick="click_tile(1,1)"></div>
+        <div id="cell12" class="t2" onclick="click_tile(1,2)"></div>
+        <div id="cell13" class="t3" onclick="click_tile(1,3)"></div>
+      </div>
+      <div id="row2" style="display: table-row">
+        <div id="cell21" class="t4" onclick="click_tile(2,1)"></div>
+        <div id="cell22" class="t5" onclick="click_tile(2,2)"></div>
+        <div id="cell23" class="t6" onclick="click_tile(2,3)"></div>
+      </div>
+      <div id="row3" style="display: table-row">
+        <div id="cell31" class="t7" onclick="click_tile(3,1)"></div>
+        <div id="cell32" class="t8" onclick="click_tile(3,2)"></div>
+        <div id="cell33" class="t9" onclick="click_tile(3,3)"></div>
+      </div>
+    </div>
+    <div class="button b1"><button onClick="shuffle();">shuffle</button></div>
     <script type="text/javascript" src="main.js"></script>
-</body>
+  </body>
 </html>
