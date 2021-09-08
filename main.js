@@ -1,3 +1,14 @@
+
+let pic= document.getElementsByClassName('t1','t2','t3','t4','t5','t6','t7','t8','t9')
+function load(){
+    axios.get(`https://api.nasa.gov/planetary/apod?api_key=${api_keys.NASA_api_key}`)
+    .then((res)=>{
+       for( i = 0; i<pic.length;i++){
+       pic.style.setProperty.background(url(res.data.hdurl))
+        setElement(pic)}
+    })
+}
+// 
 function swap_tiles(cell1, cell2) {
   var temp = document.getElementById(cell1).className
   document.getElementById(cell1).className =

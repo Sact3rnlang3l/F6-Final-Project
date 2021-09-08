@@ -7,7 +7,8 @@
     <link rel="stylesheet" type="text/css" href="style.css" />
     <title>Slide Puzzle</title>
   </head>
-  <body>
+  <body class="body">
+      <div class="button"><button onClick="load()">Daily Photo</button></div>
     <div class="table" id="table" style="display: table">
       <div id="row1" style="display: table-row">
         <div id="cell11" class="t1" onclick="click_tile(1,1)"></div>
@@ -26,6 +27,8 @@
       </div>
     </div>
     <div class="button"><button onClick="shuffle();">shuffle</button></div>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script type="text/javascript" src="main.js"></script>
+    <script src="secret.js"></script>
   </body>
 </html>

@@ -1,7 +1,6 @@
 {
   "name": "slide_puzzle",
   "version": "1.0.0",
-  "description": "",
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,6 +10,18 @@
   "license": "ISC",
   "dependencies": {
     "axios": "^0.21.4",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
     "nodemon": "^2.0.12"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sact3rnlang3l/F6-Final-Project.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Sact3rnlang3l/F6-Final-Project/issues"
+  },
+  "homepage": "https://github.com/Sact3rnlang3l/F6-Final-Project#readme",
+  "description": ""
 }
